@@ -1,24 +1,38 @@
-import requests
-from lxml import etree
-proxies = {
-    'http': 'http://' + '127.0.0.1:61614',
-    'https': 'https://' + '127.0.0.1:61614'
-}
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1'}  ##浏览器请求头（大部分网站没有这个请求头会报错、请务必加上哦）
+from selenium import webdriver
 
-url = 'https://www.mau2.com/anime/kanatanoastra/casts'
-target = requests.get(url,proxies=proxies,headers=headers)
-print(target.text)
-
-
-html = etree.HTML(target.text)
-result = html.xpath('//*[@id="animeCasts"]/div[4]/table/tbody/tr[3]/td[2]/a/text()')
+def getAnimeName(name):
+    browser = webdriver.Chrome()
+    dictAB = []
+    browser.get('https://www.mau2.com/voice/' + name)
+    inputs = browser.find_elements_by_xpath('/html/body/div[3]/div[5]/dl//dd/dl//dt/span[2]/a')
+    for i in range(0, len(inputs)):
+        dictAB.append(inputs[i].get_attribute('href'))
+    browser.close()
+    return  dictAB
 
 
+inori = getAnimeName('c613e9')
+tgtg = getAnimeName('5f3dce')
 
 
-for i in result:
-    url2 = 'https://www.mau2.com' + i
-    html = etree.HTML(requests.get(url2, proxies=proxies,headers=headers).text)
-    print(url2)
+def getNum(name):
+    browser = webdriver.Chrome()
+    browser.get(j + '/casts?q=' + name)
+    inputs = browser.find_elements_by_xpath('//*[@id="animeCasts"]//div/table/tbody/tr[1]/th/a')
+    dic = []
+    for i in range(0, len(inputs)):
+        dic.append(inputs[i].get_attribute('text'))
+    browser.close()
+    return (dic)
+
+
+for j in inori:
+    for k in tgtg:
+        if j == k:
+            print(j)
+            c1 = getNum('水瀬いのり')
+            c2 = getNum('松岡禎丞')
+            for u in c1:
+                for v in c2:
+                    if u == v:
+                        print(u)
