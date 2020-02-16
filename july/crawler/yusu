@@ -4,15 +4,14 @@ from multiprocessing.dummy import Pool as ThreadPool
 import requests
 requests.adapters.DEFAULT_RETRIES = 5
 import os.path
+import crawler.tool
 import re
 import os
 import sys
 import time
 import importlib,sys
 importlib.reload(sys)
-headers = {'Connection': 'close',
-    'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
-
+headers = crawler.tool.getHeaders()
 for i in range(461,500):
     link = 'http://www.yousuu.com/bookstore/?channel&classId&tag&countWord&status&update&sort=scorer&page=' + str(i)
     target = requests.get(link, headers=headers,timeout=10)
@@ -24,5 +23,5 @@ for i in range(461,500):
         if j % 2 ==0:
             two = resurl[j+1]
             #f.write(resurl[j] + '\t'+ two[5:8] + '\t' + two[9:-2])
-            with open('优书网.txt', 'a', encoding='utf-8') as file:
+            with open('D:/python/july/data/优书网1.txt', 'a', encoding='utf-8') as file:
                 file.write(resurl[j] + '\t'+ two[5:8] + '\t' + two[9:-2] + '\n')

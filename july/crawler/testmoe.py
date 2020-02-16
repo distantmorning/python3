@@ -1,16 +1,10 @@
 import requests
 import re
+from crawler import tool
 from lxml import etree
 from bs4 import BeautifulSoup
-proxies = {
-    'http': 'http://' + '127.0.0.1:61614',
-    'https': 'https://' + '127.0.0.1:61614'
-}
-
-
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-}
+proxies = tool.getProxies()
+headers = tool.getHeaders()
 
 def getTwo(userA, userB):
     dictAB = {}
@@ -26,7 +20,7 @@ def getTwo(userA, userB):
     return dictAB
 
 
-wTitles = getTwo("水濑祈", "松冈祯丞")
+wTitles = getTwo("日高里菜", "松冈祯丞")
 for w in wTitles:
     print(w)
 print(len(wTitles))

@@ -11,13 +11,11 @@ import re
 import os
 from multiprocessing.dummy import Pool as ThreadPool
 import sys
+import tool
 import time
 import importlib,sys
 importlib.reload(sys)
-headers = {'Connection': 'close',
-    'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
-
-
+headers = tool.getHeaders()
 def spider(link):
     try:
         work(link)
