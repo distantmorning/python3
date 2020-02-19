@@ -50,6 +50,23 @@ def getTarget(link,xpathx):
     except:
         return resurl
 
+
+def getVPNTarget(link,xpathx):
+    resurl = []
+    try:
+        target = requests.get(link, headers=getHeaders(), proxies=getProxies(),timeout=6)#,
+        html = etree.HTML(target.text)
+        target.close()
+        resurl = html.xpath(xpathx)
+        return resurl
+    except:
+        return resurl
+
+
+
+
+
+
 def writetotxt(filename,str):
     with open(filename, 'a', encoding='utf-8') as file:
         file.write(str)

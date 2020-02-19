@@ -69,7 +69,7 @@ def downPhoto(link):
 
 pool = ThreadPool(4) #双核电脑
 tot_page = []
-str = linecache.getlines('newphoto.txt')
+str = linecache.getlines('porn2.txt')
 pool.map(downPhoto, str)  # 多线程工作
 pool.map(getTitle,tot_page)
 pool.close()
