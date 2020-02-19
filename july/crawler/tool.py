@@ -21,7 +21,7 @@ def ppp():
 
 #图片url,图片路径，图片名称
 def downPhoto(url,path,name):
-    r = requests.get(url, headers=getHeaders(), timeout=5)
+    r = requests.get(url, headers=getHeaders(), timeout=15)
     fw = open(path + name + '.jpg', 'wb')
     fw.write(r.content)
     r.close()
@@ -42,10 +42,15 @@ def getAllPages(url,j,k):
 def getTarget(link,xpathx):
     resurl = []
     try:
-        target = requests.get(link, headers=getHeaders(), timeout=6)
+        target = requests.get(link, headers=getHeaders(), timeout=6)#,proxies=getProxies()
         html = etree.HTML(target.text)
         target.close()
         resurl = html.xpath(xpathx)
         return resurl
     except:
         return resurl
+
+def writetotxt(filename,str):
+    with open(filename, 'a', encoding='utf-8') as file:
+        file.write(str)
+        file.write('\n')
