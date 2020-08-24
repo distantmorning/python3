@@ -1,12 +1,12 @@
 import requests
 from lxml import etree
 proxies = {
-    'http': 'http://' + '127.0.0.1:59708',
-    'https': 'https://' + '127.0.0.1:59708'
+    'http': 'http://' + '127.0.0.1:1080',
+    'https': 'https://' + '127.0.0.1:1080'
 }
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0'
 }
 
 def getProxies():

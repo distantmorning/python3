@@ -20,7 +20,7 @@ def getTwo(userA, userB):
     return dictAB
 
 
-wTitles = getTwo("日高里菜", "松冈祯丞")
+wTitles = getTwo("水濑祈", "本渡枫")
 for w in wTitles:
     print(w)
 print(len(wTitles))

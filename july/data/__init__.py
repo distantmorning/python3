@@ -1,0 +1,1 @@
+python  -u dingleiyt@gmail.com -p j99kjjkm http://www.nicovideo.jp/watch/sm12345678
