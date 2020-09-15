@@ -1,15 +1,10 @@
 # coding=utf-8
 from lxml import etree
-from multiprocessing.dummy import Pool as ThreadPool
 import requests
+
+from july.crawler import tool
+
 requests.adapters.DEFAULT_RETRIES = 5
-import os.path
-import re
-import os
-import linecache
-import sys
-import time
-import crawler.tool
 import importlib,sys
 from multiprocessing.dummy import Pool as ThreadPool
 importlib.reload(sys)
@@ -19,10 +14,11 @@ importlib.reload(sys)
 
 def newSpider(url):
     try:
-       pothourl = crawler.tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/amp-img/@src')
-       name = crawler.tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/h3/text()')
+       pothourl = getTarget(url,'/html/body/div[2]/div[1]/div[1]/amp-img/@src')
+       name = tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/h3/text()')
        if len(name) > 0:
-           crawler.tool.downPhoto(pothourl[0],'F:\shy\ ',name[0])
+           print(url)
+           #tool.downPhoto(pothourl[0],'F:\shy\ ',name[0])
        else:
            print(url + "    is null")
     except:
@@ -33,28 +29,50 @@ def newSpider(url):
 
 
 
+
+
+
+
+
+def getTarget(link,xpathx):
+    resurl = []
+    try:
+        target = requests.get(link, headers=tool.getHeaders(), timeout=6)#,proxies=getProxies()
+        html = etree.HTML(target.text)
+        target.close()
+        resurl = html.xpath(xpathx)
+        return resurl
+    except:
+        return resurl
+
+
+
+
 def writetotxt(filename,str):
     with open(filename, 'a', encoding='utf-8') as file:
         file.write(str)
         file.write('\n')
 
 
+
+
+
 seiyuu='kousaka-sumire'
 allpage = 21
 
 
-alllink = crawler.tool.getAllPages('https://zh.porn-image-xxx.com/search/tag/' + seiyuu + '/page/',1,allpage)
+alllink = tool.getAllPages('https://zh.porn-image-xxx.com/search/tag/' + seiyuu + '/page/',1,allpage)
 #按照页面获得图片链接
 strline = []
 for link in alllink:
-    pageurl = crawler.tool.getTarget(link,'//*[@id="image-list"]//li/div/p[1]/a/@href')
+    pageurl = tool.getTarget(link,'//*[@id="image-list"]//li/div/p[1]/a/@href')
     for u in pageurl:
         strline.append('https://zh.porn-image-xxx.com/' + u)
 
 allline = []
 for line in strline:
     for pm in range(1,500):
-        singlepageurl = crawler.tool.getTarget(line + 'page/' + str(pm),'//*[@id="display_image_detail"]//div/a[1]/img/@src')
+        singlepageurl = tool.getTarget(line + 'page/' + str(pm),'//*[@id="display_image_detail"]//div/a[1]/img/@src')
         if len(singlepageurl)>0:
             for sx in range(0,len(singlepageurl)):
                 allline.append(singlepageurl[sx])
@@ -63,7 +81,7 @@ for line in strline:
 
 def imageSpider(i):
     try:
-        crawler.tool.downPhoto(i,'F:\imagexxx\jin\ ',i.split('/')[4] + '_' + i.split('/')[8][:-4])
+        tool.downPhoto(i,'F:\imagexxx\jin\ ',i.split('/')[4] + '_' + i.split('/')[8][:-4])
     except:
         writetotxt('../test/pornb.txt', i)
 

@@ -1,27 +1,27 @@
 # coding=utf-8
-from lxml import etree
-from multiprocessing.dummy import Pool as ThreadPool
+#从https://qingbuyaohaixiu.com/网站爬取图片
 import requests
+from july.crawler import tool
+
 requests.adapters.DEFAULT_RETRIES = 5
-import os.path
-import re
-import os
-import sys
-import time
-import crawler.tool
 import importlib,sys
 from multiprocessing.dummy import Pool as ThreadPool
 importlib.reload(sys)
 
-alllink = crawler.tool.getAllPages('https://qingbuyaohaixiu.com/?page=',1,5)
+#爬取页数
+pages = 5
+#存储位置
+savepath = "E:\shy\ "
+
+alllink = tool.getAllPages('https://qingbuyaohaixiu.com/?page=',1,pages)
 
 
 def newSpider(url):
     try:
-       pothourl = crawler.tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/amp-img/@src')
-       name = crawler.tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/h3/text()')
+       pothourl = tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/amp-img/@src')
+       name = tool.getTarget(url,'/html/body/div[2]/div[1]/div[1]/h3/text()')
        if len(name) > 0:
-           crawler.tool.downPhoto(pothourl[0],'F:\shy\ ',name[0])
+           tool.downPhoto(pothourl[0],'E:\shy\ ',name[0])
        else:
            print(url + "    is null")
     except:
@@ -33,7 +33,7 @@ tot_page = []
 
 #按照页面获得图片链接
 for link in alllink:
-    pageurl = crawler.tool.getTarget(link,'/html/body/div[2]//div//div/a[1]/@href')
+    pageurl = tool.getTarget(link,'/html/body/div[2]//div//div/a[1]/@href')
     for u in pageurl:
         tot_page.append('https://qingbuyaohaixiu.com' + u)
 

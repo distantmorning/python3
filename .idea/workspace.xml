@@ -20,34 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3b4a7b3-154e-4373-933b-ed81e987fe59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/july/data/stage/1831320.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/crawler/bilibili.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/bilibili.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/july/crawler/cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/cloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/crawler/flagall.png" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/flagall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/crawler/qi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/qi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/july/crawler/imagexxx.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/imagexxx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/july/crawler/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/july/crawler/shy.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/shy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/july/crawler/stage.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/stage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/crawler/testmoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/crawler/testmoe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/d1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/d1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/test/douban.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/falgack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/falgack.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/flag.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/test/flag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/flagsm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/flagsm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/photo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/photo2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/shuilaiqi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/shuilaiqi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/shuilaiqip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/shuilaiqip.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/test/test5ch.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/test/test5ch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/downPhoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/july/test/downPhoto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/inori.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/inori.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/inori2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/inori2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/photopng.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/photopng.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/tgtgpart.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/tgtgpart.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/tgtgpart2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/tgtgpart2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/tgtgpart3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/tgtgpart3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/tgtgt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/tgtgt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/tgtgt2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/tgtgt2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/july/tool/tgtgt3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/tgtgt3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/july/data/flagall.png" beforeDir="false" afterPath="$PROJECT_DIR$/july/data/flagall.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +56,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1hUxmgBOOY8G2tfkwi7Jdc48SWx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -97,8 +83,8 @@
       <recent name="D:\python\python3\july\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.downPhoto">
-    <configuration name="downPhoto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.shy">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,36 +92,90 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/tool" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\python3\july\test\downPhoto.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/stage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/cloud.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="imagexxx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/imagexxx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/shy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -146,9 +186,6 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -157,51 +194,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/testmoe.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testname" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/testname.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testwiki" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/july/crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/july/crawler/testwiki.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -210,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.downPhoto" />
+        <item itemvalue="Python.shy" />
         <item itemvalue="Python.testmoe" />
-        <item itemvalue="Python.stage" />
-        <item itemvalue="Python.testname" />
-        <item itemvalue="Python.testwiki" />
+        <item itemvalue="Python.imagexxx" />
+        <item itemvalue="Python.mysql" />
+        <item itemvalue="Python.cloud" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +225,8 @@
       <workItem from="1600079633415" duration="2037000" />
       <workItem from="1600081776712" duration="1889000" />
       <workItem from="1600128007399" duration="18000" />
-      <workItem from="1600129379923" duration="1962000" />
+      <workItem from="1600129379923" duration="2241000" />
+      <workItem from="1600131853128" duration="7574000" />
     </task>
     <servers />
   </component>
@@ -251,47 +245,54 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="682" y="343" key="#Notifications" timestamp="1600081275368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600081275368" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600132159631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600132159631" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600128017964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600128017964" />
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1600131386269">
+    <state width="1877" height="233" key="GridCell.Tab.0.bottom" timestamp="1600133620824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1600131386269">
+    <state width="1877" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600133620824" />
+    <state width="1877" height="233" key="GridCell.Tab.0.center" timestamp="1600133620824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1600131386269">
+    <state width="1877" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600133620824" />
+    <state width="1877" height="233" key="GridCell.Tab.0.left" timestamp="1600133620824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1600131386269">
+    <state width="1877" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600133620824" />
+    <state width="1877" height="233" key="GridCell.Tab.0.right" timestamp="1600133620824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1600131386269">
+    <state width="1877" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600133620824" />
+    <state width="1877" height="199" key="GridCell.Tab.1.bottom" timestamp="1600132924492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1600131386269">
+    <state width="1877" height="199" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600132924492" />
+    <state width="1877" height="199" key="GridCell.Tab.1.center" timestamp="1600132924492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1600131386269">
+    <state width="1877" height="199" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600132924492" />
+    <state width="1877" height="199" key="GridCell.Tab.1.left" timestamp="1600132924492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
-    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1600131386269">
+    <state width="1877" height="199" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600132924492" />
+    <state width="1877" height="199" key="GridCell.Tab.1.right" timestamp="1600132924492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600131386269" />
+    <state width="1877" height="199" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600132924492" />
     <state x="412" y="140" key="SettingsEditor" timestamp="1600083454049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,7 +303,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/july/crawler/stage.py</url>
-          <line>38</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -338,6 +339,6 @@
     <SUITE FILE_PATH="coverage/python3$testmoe.coverage" NAME="testmoe Coverage Results" MODIFIED="1600130220826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/july/crawler" />
     <SUITE FILE_PATH="coverage/python3$downPhoto.coverage" NAME="downPhoto Coverage Results" MODIFIED="1600131319833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/july/tool" />
     <SUITE FILE_PATH="coverage/python3$bilibili.coverage" NAME="bilibili Coverage Results" MODIFIED="1600080198904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/july/crawler" />
-    <SUITE FILE_PATH="coverage/python3$stage.coverage" NAME="stage Coverage Results" MODIFIED="1600129530886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/july/crawler" />
+    <SUITE FILE_PATH="coverage/python3$stage.coverage" NAME="stage Coverage Results" MODIFIED="1600132995404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/july/crawler" />
   </component>
 </project>
