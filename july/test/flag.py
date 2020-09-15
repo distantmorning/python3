@@ -56,7 +56,7 @@ def getCommentFromSm(sm):
 #     sm = html.xpath('/html/body/div[1]/div[3]/div/div[1]/div[3]/ul[2]//li/div[2]/p/a/@href')
 #     for s in sm:
 #         crawler.tool.writetotxt('flagsm.txt',s[6:])
-allsm = linecache.getlines('falgack.txt')
+allsm = linecache.getlines('../data/falgack.txt')
 for sm in allsm:
     crawler.tool.writetotxt('flag.txt',sm[:-1])
     try:

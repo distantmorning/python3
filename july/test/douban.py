@@ -56,7 +56,7 @@ girlname = 'zhangzifeng'
 #
 # 读取txt文本内容
 data = []
-for line in open("d1.txt", "r"):  # 设置文件对象并读取每一行文件
+for line in open("../data/d1.txt", "r"):  # 设置文件对象并读取每一行文件
     data = data + line.splitlines()
 
 url_list=[]

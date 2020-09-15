@@ -53,7 +53,7 @@ def downPhotos(sss):
 # fw.write(r.content)
 # r.close()
 
-str = linecache.getlines('tgtgt3.txt')
+str = linecache.getlines('../data/tgtgt3.txt')
 pool = ThreadPool(50) #双核电脑
 tot_page = []
 # for sss in str:

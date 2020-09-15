@@ -10,7 +10,7 @@ text=open(path.join(lj,'flag.txt'),encoding='utf-8').read() #读取的文本
 # jieba.add_word('小水')
 # jieba.add_word('松冈')    #添加结巴分辨不了的词汇
 jbText=' '.join(jieba.cut(text))
-imgMask=np.array(Image.open(path.join(lj,'qi.jpg')))   #读入背景图片
+imgMask=np.array(Image.open(path.join(lj, '../data/qi.jpg')))   #读入背景图片
 wc=WordCloud(
     background_color='white',
     max_words=500,
@@ -22,7 +22,7 @@ ImageColorGenerator(imgMask)   #根据图片生成词云颜色
 # plt.imshow(wc)
 # plt.axis('off')
 # plt.show()
-wc.to_file(path.join(lj,'flagall.png'))
+wc.to_file(path.join(lj, '../data/flagall.png'))
 print('成功保存词云图片！')
 
 

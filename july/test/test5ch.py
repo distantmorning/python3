@@ -60,10 +60,10 @@ def getSUrl(louurl):
     for k in texts:
         line = line + " " + k
     try:
-        with open('shuilaiqi.txt', 'a', encoding='utf-8') as file:
+        with open('../data/shuilaiqi.txt', 'a', encoding='utf-8') as file:
             file.write(dictp.get(dd) + " " + data[0] + "   " + line)
             file.write('\n')
-        with open('shuilaiqip.txt', 'a', encoding='utf-8') as file:
+        with open('../data/shuilaiqip.txt', 'a', encoding='utf-8') as file:
             for p in hrefs:
                 file.write(dictp.get(dd) + " " + data[0] + "   " + p)
                 file.write('\n')
@@ -72,7 +72,7 @@ def getSUrl(louurl):
 
 
 
-allpage = linecache.getlines('photo2.txt')
+allpage = linecache.getlines('../data/photo2.txt')
 dictp ={}
 for ap in allpage:
     dictp[ap.split("  ")[1][:-1]] = ap.split("  ")[0]

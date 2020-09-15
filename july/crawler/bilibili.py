@@ -9,7 +9,6 @@ import os
 import linecache
 import sys
 import time
-import crawler.tool
 import importlib,sys
 import you_get
 from multiprocessing.dummy import Pool as ThreadPool
